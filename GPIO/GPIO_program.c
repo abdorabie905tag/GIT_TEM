@@ -18,6 +18,8 @@
 #include "GPIO_private.h"
 #include "GPIO_config.h"
 
+u8 mainTest = 0;
+
 void GPIO_voidSetPinMode(void)
 {
 	uint8 local_uint8PinsCounter;
